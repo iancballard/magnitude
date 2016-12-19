@@ -1,0 +1,23 @@
+"""Preprocessing parameters for ser experiment."""
+source_template = "{subject_id}/func/run?.nii.gz"
+n_runs = 6#4
+TR = 2
+frames_to_toss = 0#2 #change to 0 for princeton, 2 for asu
+temporal_interp = False
+interleaved = False
+coreg_init = "header"
+intensity_threshold = 3.5
+motion_threshold = 0.5
+smooth_fwhm = 6
+surf_smooth = 8
+hpf_cutoff = 128
+grf_pthresh = .05
+hrf_model = 'GammaDifferenceHRF'
+temporal_deriv = False
+confound_pca = False
+wm_components = 1
+flame_mode = 'flame1'
+units = "secs"
+confound_sources = ['brain']#['motion','wm','brain']
+# fieldmap_template = "{subject_id}/cal/merged_?_mcf.nii.gz"
+# fieldmap_pe = ['y','y-']
