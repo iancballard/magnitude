@@ -43,7 +43,8 @@ Raw data for both datasets are also stored here as csv files.
 ###fMRI Analysis Notebooks
 
 
-[make_masks.ipynb](https://github.com/iancballard/magnitude/blob/master/make_masks.ipynb)
+#### make_masks.ipynb
+[Link to static notebook](https://github.com/iancballard/magnitude/blob/master/make_masks.ipynb)
 
 Warp ROIs from group space to individual subject sufaces and write binary masks in functional space.
 
@@ -55,7 +56,7 @@ Create images with opposite phase encoding directions for topup field correction
 
 #### recon-all.ipynb
 
-[Link to static notebook](https://github.com/iancballard/magnitude/blob/master/)
+[Link to static notebook](https://github.com/iancballard/magnitude/blob/master/recon-all.ipynb)
 
 All of the actual analyses are contained within this notebook.
 
