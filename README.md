@@ -3,7 +3,7 @@ Analyses for More is meaningful: The magnitude effect in intertemporal choice de
 
 This repository contains analysis code for the following paper:
 
-Ian C. Ballard, Bokyung Kim, Anthony Liatsis, Jonathan D. Cohen, Samuel M. McClure. Analyses for More is meaningful: The magnitude effect in intertemporal choice depends on self-control
+Ian C. Ballard, Bokyung Kim, Anthony Liatsis, Jonathan D. Cohen, Samuel M. McClure.  More is meaningful: The magnitude effect in intertemporal choice depends on self-control
 . 
 
 The code is contained within several IPython notebooks that performed the analyses and generated all figures used in the manuscript.
@@ -107,16 +107,6 @@ This notebook generates the ROI figure in the manuscript.
 v0.0.10
 
 ### Other Data
-
-#### rois/
-
-Freesurfer `.label` files defining the ROIs in common surface space. These
-labels were created from files distributed by
-[Freesurfer](http://ftp.nmr.mgh.harvard.edu/fswiki/CorticalParcellation_Yeo2011).
-
-#### figures/
-
-Figures that are output by these notebooks.
 
 #### project.py
 
